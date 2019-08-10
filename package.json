@@ -1,15 +1,17 @@
 {
   "name": "webapi-challenge",
   "version": "1.0.0",
-  "description": "## Description",
+  "description": "In this challenge, create a web API to manage the following resources: `People` and `Chores`.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jarred28/webapi-challenge.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +19,9 @@
   },
   "homepage": "https://github.com/Jarred28/webapi-challenge#readme",
   "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
     "nodemon": "^1.19.1"
   }
 }
